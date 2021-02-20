@@ -1,0 +1,69 @@
+#news {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 600px;
+    background-image: url(../image/878323_m.jpg);
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+#news-wrap {
+    width: 80vw;
+    height: 800px;
+    background-color:white;
+    opacity: 0.9;
+    border-radius:100px;
+    position: absolute;
+    top:100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    table{
+        width: 90%;
+        margin: 0 auto;
+        display: table;
+    }
+    td {
+        font-size: 20px;
+        height: 100px;
+        display: table-cell;
+        vertical-align:middle;
+        
+    }
+    .obj {
+        text-align: center;
+        width: 150px;
+    }
+    tr {
+        border-bottom: solid 1px;
+    }
+}
+.btn-kokura{
+    width: 120px;
+    border-radius: 10px;
+    line-height: 30px;
+    background:linear-gradient(skyblue,white)
+}
+.btn-shimonoseki{
+    width: 120px;
+    border-radius: 10px;
+    line-height: 30px;
+    background:linear-gradient(rgb(253, 4, 241),white)
+}
+.btn-all{
+    width: 120px;
+    border-radius: 10px;
+    line-height: 30px;
+    background:linear-gradient(rgb(0, 255, 76),white)
+}
