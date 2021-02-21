@@ -31,3 +31,44 @@
         }
     }
 }
+
+.work-gide {
+    display: flex;
+    width: 50%;
+    clear: both;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+.work-gide2 {
+    display: flex;
+    width: 50%;
+    float: right;
+    line-height: 30px;
+    margin-bottom: 60px;
+}
+
+.step-style {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid;
+    margin-bottom: 30px;
+    
+    p {
+        font-size: 30px;
+        height: 100px;
+        line-height: 100px;
+    }
+    .number {
+        font-size: 50px;
+    }
+}
+
+.apply-step {
+    p {
+        text-align: center;
+    }
+    .apply-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}

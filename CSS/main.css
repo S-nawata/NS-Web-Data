@@ -251,6 +251,16 @@ footer ul :first-child {
   position: relative;
 }
 
+.sub-view1 {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 350vh;
+  background-image: url(../image/878323_m.jpg);
+  background-size: cover;
+  background-position: bottom -80px right 0;
+  position: relative;
+}
+
 .view-wrap {
   width: 80vw;
   height: 800px;
@@ -396,6 +406,56 @@ footer ul :first-child {
   width: 150px;
 }
 
+.work-gide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  clear: both;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+
+.work-gide2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  float: right;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+
+.step-style {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: solid;
+  margin-bottom: 30px;
+}
+
+.step-style p {
+  font-size: 30px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.step-style .number {
+  font-size: 50px;
+}
+
+.apply-step p {
+  text-align: center;
+}
+
+.apply-step .apply-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .title-company {
   text-align: center;
   font-size: 40px;
@@ -403,7 +463,9 @@ footer ul :first-child {
   background: linear-gradient(red, orange);
   -webkit-background-clip: text;
   color: transparent;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  clear: both;
 }
 
 .company-massage {
