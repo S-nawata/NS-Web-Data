@@ -1,0 +1,47 @@
+.form {
+    .name {
+        box-shadow: 2px 2px 2px 2px silver inset;
+        height: 50px;
+    }
+    .name1 {
+        box-shadow: 2px 2px 2px 2px silver inset;
+        height: 50px;
+        width: 50%;
+    }
+    .name2 {
+        box-shadow: 2px 2px 2px 2px silver inset;
+        height: 300px;
+        width: 100%;
+    }
+    .radio {
+        width: 30px;
+        height: 30px;
+    }
+}
+input[type=checkbox] {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 50px;
+    height: 50px;
+}
+#check-text-wrap {
+    text-align: center;
+}
+#wrap-space {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    overflow:scroll;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: solid silver 1px;
+    p {
+        line-height: 30px;
+        text-align: start;
+    }
+}
+.check-text {
+    font-size: 20px;
+    vertical-align: middle;
+}

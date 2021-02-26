@@ -10,7 +10,17 @@
 .sub-view1 {
     width: 100%;
     height: 350px;
-    margin-bottom: 350vh;
+    margin-bottom: 400vh;
+    background-image: url(../image/878323_m.jpg);
+    background-size: cover;
+    background-position: bottom -80px right 0;
+    position: relative;
+}
+
+.sub-view3 {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 200vh;
     background-image: url(../image/878323_m.jpg);
     background-size: cover;
     background-position: bottom -80px right 0;
@@ -19,6 +29,7 @@
 
 .view-wrap {
     width: 80vw;
+    min-width: 900px;
     height: 800px;
     opacity: 0.9;
     background-color: white;
