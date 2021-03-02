@@ -1,19 +1,25 @@
 #top-view {
     width: 100%;
-    height: 95vh;
-    background-image: url(../image/3960116_m.jpg);
+    height: 80vh;
+    background-image: url(../image/4192887_m.jpg);
     background-size: cover;
     #mask {
         width: 100%;
         height: 100%;
-        background: rgba($color: #2c2c2c, $alpha: 0.4);
+        // background: rgba($color: #2c2c2c, $alpha: 0.4);
         position: relative;
         p{
-            font-size: 50px;
-            color: white;
+            font-size: 5vw;
+            color:rgb(245, 43, 43);
             position: absolute;
             bottom: 30px;
             left: 40px;
         }
+    }
+}
+
+.button {
+    .btn-img {
+        margin-top: 7vh;
     }
 }

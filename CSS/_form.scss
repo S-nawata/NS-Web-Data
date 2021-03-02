@@ -36,6 +36,9 @@ input[type=checkbox] {
     margin-top: 100px;
     border-radius: 10px;
     border: solid silver 1px;
+    ul {
+        text-align: start;
+    }
     p {
         line-height: 30px;
         text-align: start;
