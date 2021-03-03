@@ -25,6 +25,16 @@
         tr {
             border-bottom: solid 1px;
         }
+        th {
+            font-size: 20px;
+            vertical-align: middle;
+            background:linear-gradient(red,orange);
+        -webkit-background-clip: text;
+        color: transparent;
+        }
+        .company-th {
+            width: 200px;
+        }
         .obj {
             text-align: center;
             width: 150px;

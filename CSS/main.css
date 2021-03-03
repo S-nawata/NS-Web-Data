@@ -142,16 +142,16 @@ footer {
   background: linear-gradient(#ff7070, #f3d091);
 }
 
+footer li:first-child {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
 footer ul li {
   margin-left: 30px;
   height: 50px;
   line-height: 50px;
   font-size: 15px;
-}
-
-footer ul :first-child {
-  font-weight: bolder;
-  font-size: 20px;
 }
 
 .footer-copyright {
@@ -258,6 +258,16 @@ footer ul :first-child {
   width: 100%;
   height: 350px;
   margin-bottom: 400vh;
+  background-image: url(../image/878323_m.jpg);
+  background-size: cover;
+  background-position: bottom -80px right 0;
+  position: relative;
+}
+
+.sub-view2 {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 250vh;
   background-image: url(../image/878323_m.jpg);
   background-size: cover;
   background-position: bottom -80px right 0;
@@ -413,6 +423,19 @@ footer ul :first-child {
 
 .view-wrap table tr {
   border-bottom: solid 1px;
+}
+
+.view-wrap table th {
+  font-size: 20px;
+  vertical-align: middle;
+  background: -webkit-gradient(linear, left top, left bottom, from(red), to(orange));
+  background: linear-gradient(red, orange);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.view-wrap table .company-th {
+  width: 200px;
 }
 
 .view-wrap table .obj {
