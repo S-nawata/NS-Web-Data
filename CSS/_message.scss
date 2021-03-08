@@ -1,0 +1,34 @@
+.president-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    img {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+.president-message {
+    font-size: 30px;
+    background:linear-gradient(red,orange);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    border-bottom: solid red 2px;
+}
+
+.president-message2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.president-message3{
+    margin-top: 30px;
+    width: 100%;
+    text-align: end;
+    font-size: 20px;
+}
+.corporate-wrap {
+    width: 100%;
+    display: flex;
+    height: 300px;
+    margin-bottom: 60px;
+}

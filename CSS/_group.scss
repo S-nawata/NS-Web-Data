@@ -1,0 +1,28 @@
+.group-wrap {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    a {
+        width: 40%;
+        height: 200px;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .group-massage {
+        width: 40%;
+        height: 200px;
+        font-size: 20px;
+        text-align: start;
+        display: table;
+        h2 {
+            font-weight: bold;
+            text-align: start;
+        }
+        .group-massage1 {
+            display: table-cell;
+            vertical-align:middle;
+        }
+    }
+}

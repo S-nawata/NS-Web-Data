@@ -3,6 +3,7 @@ footer {
     display: flex;
     justify-content: space-around;
     background: linear-gradient(#ff7070, #f3d091);
+    position: relative;
     li:first-child{
         font-weight: bolder;
         font-size: 20px;
@@ -26,4 +27,11 @@ footer {
     background-color: #d60a39;
     color: white;
 
+}
+
+.p-logo {
+    width: 30vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

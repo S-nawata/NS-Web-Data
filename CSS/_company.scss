@@ -23,13 +23,35 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 50px;
+    a {
+        max-width: 50%;
+        width: 49%;
+        height: 20vw;
+        margin-bottom: 10px;
+    }
 }
 .company-img-wrap {
+    background-image: url(../image/greetimg.jpg);
+    background-size: cover;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    p {
+        font-size: 4vw;
+        background: -webkit-gradient(linear, left top, left bottom, from(red), to(orange));
+        background: linear-gradient(white, rgb(255, 0, 0));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
+
+.company-img-wrap2 {
     background-image: url(../image/4204347_s.jpg);
     background-size: cover;
-    max-width: 50%;
-    width: 49%;
-    height: 20vw;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
     margin-bottom: 10px;
     p {
         font-size: 4vw;
@@ -41,6 +63,10 @@
 }
 
 .company-img-wrap:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.company-img-wrap2:hover{
     transform: scale(1.2);
     transition: 0.5s;
 }
